@@ -43,9 +43,9 @@ function callWikiAPI (){
         localStorage.setItem("history", historyStr);
 
         
-    });
+    }
 
-};
+})
 
 $(document).ready(function(){
   $('.imageCard').hide();
@@ -57,4 +57,4 @@ $("#selectedImage").on('click',function(){
          
 
 
-
+}
