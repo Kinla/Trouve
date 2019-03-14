@@ -47,12 +47,13 @@ function callWikiAPI (){
 
 })
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   $('.imageCard').hide();
 });
 $("#selectedImage").on('click',function(){
   $('.imageCard').show();
 })
+*/
             
          
 
