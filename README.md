@@ -14,7 +14,7 @@ Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
 - JavaScript / JQuery
 - Google Cloud Vision API
 - MediaWiki API
-- responsiveVoice JS
+- responsiveVoice.JS
 
 - - -
 
@@ -28,10 +28,11 @@ Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
    * A `POST` request is sent to Google Cloud Vision API withThe `Base64` string without the data tag as part of the data. The request also specifics returning only one `Web Entities`.
       * Calls next API - MediaWiki API.
 
-   * The MediaWiki API takes the `description` of the top scoring entity as the `title` of the query string and sends off the request by `GET` method.
+   * The MediaWiki API takes the `description` of the top scoring entity as the `title` of the query string and sends off the request by `GET` method. If there is a page found on Wikipedia, the page content would return as a response.
    
-   * 
-  Click to upload the image. The Google Cloud Vision API converts the image object to a query object (Base 64 encoding) which is queried by the MediaWiki API. Once a search result is found, the title and the description associated with the title appear in the respective sections of the page. 
+2. The UI is polulated with the `title` and a shortened Wikipedia page content as the `description`.
+3. The user can opt to listen to the `description` using the `play` button just below the `description`. This functionality is enabled by responsiveVoice.JS.
+   * `pause` and `stop` functions for audio is also available.
 
 A Javascript audio library (responsiveVoice) was implemented to then handle the audio playback of the description. Your search history is then stored in local storage and pulled to the page for easy access in future.
 
