@@ -14,7 +14,7 @@ Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
 * Kai-Ann Fletcher
 * Peiji Song
 
-##### Where can users get help?
+##### contact Us
 Please contact any one of our contributors by emailing trouveteam@trouve.ca.
 We are in the process of working on guides and documentation to improve user education on our product.
 
