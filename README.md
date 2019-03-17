@@ -6,6 +6,11 @@ Have you ever wanted to know what something is? This web application helps you i
 
 Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
 
+##### Team Members
+* Sharon Chien
+* Kai-Ann Fletcher
+* Peiji Song
+
 - - -
 
 ### Technologies
