@@ -1,11 +1,35 @@
-# Team04-Project01
-Trouve (Object Search)
+# TROUVÉ
 
-What does this project do?:
+### Overview
 
 Have you ever wanted to know what something is? This web application helps you identify “anything” when you provide it with an image. It also comes with a brief description complete with audio playback. 
 
-Click to upload the image. The Google Vision API converts the image object to a query object (Base 64 encoding) which is queried by the MediaWiki API. Once a search result is found, the title and the description associated with the title appear in the respective sections of the page. 
+Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
+
+- - -
+
+### Technologies
+- HTML5
+- CSS / Bootstrap
+- JavaScript / JQuery
+- Google Cloud Vision API
+- MediaWiki API
+- responsiveVoice JS
+
+- - -
+
+### Process
+
+1. User chooses an image to upload.
+   * There is no input validation. However, by using the `HTML5 <Input>`, we have specified `type="file"` and `accept="images/*"`. This then will hide all other file type while browsing for a file.
+
+2. Automatically resize image to `max-width: 600px` / `max-height: 600p` and converts image data to `Base64` data URL through the use of `HTML5 <canvas>`.  
+
+3. A `POST` request is sent to Google Cloud Vision API withThe `Base64` string without the data tag as part of the data. The request also specifics returning only one `Web Entities`.
+   * Calls next API - MediaWiki API
+
+4. The MediaWiki API takes the `description` of the top scoring entity as the `title` of the query string and sends off the request by `GET` method.
+  Click to upload the image. The Google Cloud Vision API converts the image object to a query object (Base 64 encoding) which is queried by the MediaWiki API. Once a search result is found, the title and the description associated with the title appear in the respective sections of the page. 
 
 A Javascript audio library (responsiveVoice) was implemented to then handle the audio playback of the description. Your search history is then stored in local storage and pulled to the page for easy access in future.
 
