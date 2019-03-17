@@ -26,9 +26,11 @@ Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
    * Automatically resize image to `max-width: 600px` / `max-height: 600p` and converts image data to `Base64` data URL through the use of `HTML5 <canvas>`.  
 
    * A `POST` request is sent to Google Cloud Vision API withThe `Base64` string without the data tag as part of the data. The request also specifics returning only one `Web Entities`.
-    * Calls next API - MediaWiki API
+      * Calls next API - MediaWiki API.
 
-4. The MediaWiki API takes the `description` of the top scoring entity as the `title` of the query string and sends off the request by `GET` method.
+   * The MediaWiki API takes the `description` of the top scoring entity as the `title` of the query string and sends off the request by `GET` method.
+   
+   * 
   Click to upload the image. The Google Cloud Vision API converts the image object to a query object (Base 64 encoding) which is queried by the MediaWiki API. Once a search result is found, the title and the description associated with the title appear in the respective sections of the page. 
 
 A Javascript audio library (responsiveVoice) was implemented to then handle the audio playback of the description. Your search history is then stored in local storage and pulled to the page for easy access in future.
