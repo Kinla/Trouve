@@ -6,7 +6,7 @@ Have you ever wanted to know what something is? This web application helps you i
 
 This is an easy to use mobile responsive application that allows for travellers to learn more about items that they may not know the name of on the fly. The audio playback feature is really important as it is just bad use of time to stare at a screen when you can be exploring the world. The audio functionality also serves the visually impaired.
 
-Link to Trouvé: https://kaiannfletcher.github.io/Team04-Project01/
+Link to Trouvé: https://kinla.github.io/Trouve/.
 
 ##### Developers
 * Nick Buadwal
