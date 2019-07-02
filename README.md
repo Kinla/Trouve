@@ -14,10 +14,6 @@ Link to Trouvé: https://kinla.github.io/Trouve/.
 * Kai-Ann Fletcher
 * Peiji Song
 
-##### Contact Us
-Please contact any one of our contributors by emailing trouveteam@trouve.ca.
-We are in the process of working on guides and documentation to improve user education on our product.
-
 - - -
 
 ### Demo
