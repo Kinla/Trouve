@@ -21,8 +21,7 @@ We are in the process of working on guides and documentation to improve user edu
 - - -
 
 ### Demo
-![demo](Trouvé.webm)
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![demo](https://github.com/Kinla/Trouve/blob/master/trouvejpg.jpg)](https://www.youtube.com/watch?v=SPhVjqD5dSw&feature=youtu.be)
 
 ### Technologies
 - HTML5
